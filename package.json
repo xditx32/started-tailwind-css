@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "set TAILWIND_MODE=watch&postcss tailwind.css -o ./public/styles.css -w --verbose",
+    "build": "set TAILWIND_MODE=watch postcss tailwind.css -o ./public/styles.css -w --verbose",
     "prod": "NODE_ENV=production postcss tailwind.css -o ./public/styles.css"
   },
   "keywords": [],
@@ -13,7 +13,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.5",
-    "postcss-cli": "^8.4.41",
+    "postcss-cli": "^2.4.1",
     "tailwindcss": "^3.4.10"
   },
   "dependencies": {}
