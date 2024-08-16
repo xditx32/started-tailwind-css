@@ -1,4 +1,4 @@
-# Starter FE Tailwind CSS v2 as a PostCSS plugin with JIT mode
+# Starter FRONTEND Tailwind CSS v3 as a PostCSS plugin with JIT mode
 
 ## How to use
 
@@ -13,7 +13,8 @@ Watches files as you make changes to your `index.html` within `public` folder
 **Step 3:**<br>
 `npm run prod`
 
-**Windows Users:**
+**Windows Users:**<br>
 `"build": "set TAILWIND_MODE=watch&postcss tailwind.css -o ./public/styles.css -w --verbose"`
-**Mac Users:**
+
+**Mac Users:**<br>
 `"build": "TAILWIND_MODE=watch postcss tailwind.css -o ./public/styles.css -w --verbose"`
